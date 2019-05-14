@@ -17,7 +17,7 @@ class School
   end
 
   def sort
-    @roster.sort_by { |key, val| val}
+    @roster.sort_by { |key, val| val}.Hash.new
   end
 
 end
