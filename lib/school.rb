@@ -17,10 +17,8 @@ class School
   end
 
   def sort
-    sorted = @roster.each_key do |name| name.sort
-    end
-    sorted.to_h
-  end
+   @roster.values
+  
 
 end
 # def add_student(name, grade)
