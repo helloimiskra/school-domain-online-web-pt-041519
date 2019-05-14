@@ -19,7 +19,6 @@ class School
   def sort
    @roster.each {|grade, name|
      name.each {|x| x.sort} }
-   end
  end
 
 
