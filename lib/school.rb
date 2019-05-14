@@ -19,6 +19,7 @@ class School
   def sort
     @roster.map do |key, val| val.sort
     end
+    puts @roster
   end
 
 end
