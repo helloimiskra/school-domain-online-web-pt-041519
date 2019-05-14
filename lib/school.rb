@@ -17,7 +17,7 @@ class School
   end
 
   def sort
-    sorted = @roster.values.sort
+    sorted = @roster.keys.sort
     return sorted
   end
 
