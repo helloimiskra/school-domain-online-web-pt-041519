@@ -17,7 +17,7 @@ class School
   end
 
   def sort
-    @roster.sort_by{|key, val| key, val}.to_h
+    @roster.sort_by{|key, val| [key, val] }.to_h
   end
 
 end
