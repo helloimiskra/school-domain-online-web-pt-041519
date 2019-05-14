@@ -17,7 +17,7 @@ class School
   end
 
   def sort
-    sorted = >? Hash[@roster.sort]
+    sorted = @roster.values.sort
     return sorted
   end
 
