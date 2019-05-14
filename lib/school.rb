@@ -17,9 +17,8 @@ class School
   end
 
   def sort
-    @roster.map do |key, val| val.sort
+    @roster.sort_by { |key, val| val}
     end
-    puts @roster
   end
 
 end
