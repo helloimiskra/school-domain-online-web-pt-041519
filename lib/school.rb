@@ -18,7 +18,6 @@ class School
 
   def sort
     @roster.sort_by { |key, val| val}
-    end
   end
 
 end
