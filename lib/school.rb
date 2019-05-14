@@ -17,8 +17,7 @@ class School
   end
 
   def sort
-    sorted = @roster.map {|key, val| val.sort }
-    sorted.to_h
+    sorted = @roster.map {|grade, name| name.sort }
   end
 
 end
